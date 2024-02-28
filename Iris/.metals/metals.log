@@ -1,0 +1,433 @@
+2024.02.28 14:55:34 INFO  Started: Metals version 1.2.2 in folders 'C:\Users\MDNOS\Desktop\final\iris' for client Visual Studio Code 1.86.2.
+14:55:36.739 [pool-1-thread-1] INFO org.flywaydb.core.internal.license.VersionPrinter -- Flyway Community Edition 9.22.3 by Redgate
+14:55:36.745 [pool-1-thread-1] INFO org.flywaydb.core.internal.license.VersionPrinter -- See release notes here: https://rd.gt/416ObMi
+14:55:36.745 [pool-1-thread-1] INFO org.flywaydb.core.internal.license.VersionPrinter -- 
+14:55:36.750 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classpath resources at 'classpath:db/callback' ...
+14:55:36.750 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Determining location urls for classpath:db/callback using ClassLoader jdk.internal.loader.ClassLoaders$AppClassLoader@30946e09 ...
+14:55:36.750 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Unable to resolve location classpath:db/callback.
+14:55:36.751 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classpath resources at 'classpath:db/migration' ...
+14:55:36.751 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Determining location urls for classpath:db/migration using ClassLoader jdk.internal.loader.ClassLoaders$AppClassLoader@30946e09 ...
+14:55:36.752 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning URL: jar:file:/C:/Users/MDNOS/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scalameta/metals_2.13/1.2.2/metals_2.13-1.2.2.jar!/db/migration
+14:55:36.760 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/
+14:55:36.760 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V1__Create_tables.sql
+14:55:36.760 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V2__Server_discovery.sql
+14:55:36.760 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V3__Jar_symbols.sql
+14:55:36.760 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V4__Fingerprints.sql
+14:55:36.761 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classes at classpath:db/migration
+14:55:36.767 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+14:55:36.768 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V1__Create_tables.sql
+14:55:36.769 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V3__Jar_symbols.sql
+14:55:36.769 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V4__Fingerprints.sql
+14:55:36.770 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V2__Server_discovery.sql
+14:55:37.006 [pool-1-thread-1] INFO org.flywaydb.core.FlywayExecutor -- Database: jdbc:h2:file:C:\Users\MDNOS\Desktop\final\iris\.metals\metals (H2 2.2)
+14:55:37.006 [pool-1-thread-1] DEBUG org.flywaydb.core.FlywayExecutor -- Driver: H2 JDBC Driver 2.2.224 (2023-09-17)
+14:55:37.006 [pool-1-thread-1] DEBUG org.flywaydb.core.FlywayExecutor -- DDL Transactions Supported: false
+14:55:37.009 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.schemahistory.SchemaHistoryFactory -- Schemas: 
+14:55:37.009 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.schemahistory.SchemaHistoryFactory -- Default schema: null
+14:55:37.020 [pool-1-thread-1] WARN org.flywaydb.core.internal.database.base.Database -- Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+14:55:37.022 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.callback.SqlScriptCallbackFactory -- Scanning for SQL callbacks ...
+14:55:37.023 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+14:55:37.044 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbValidate -- Validating migrations ...
+14:55:37.057 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+14:55:37.085 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V1__Create_tables.sql (filename: V1__Create_tables.sql)
+14:55:37.086 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+14:55:37.086 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V3__Jar_symbols.sql (filename: V3__Jar_symbols.sql)
+14:55:37.086 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V4__Fingerprints.sql (filename: V4__Fingerprints.sql)
+14:55:37.086 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V2__Server_discovery.sql (filename: V2__Server_discovery.sql)
+14:55:37.089 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V1__Create_tables.sql (filename: V1__Create_tables.sql)
+14:55:37.089 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+14:55:37.089 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V3__Jar_symbols.sql (filename: V3__Jar_symbols.sql)
+14:55:37.089 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V4__Fingerprints.sql (filename: V4__Fingerprints.sql)
+14:55:37.089 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V2__Server_discovery.sql (filename: V2__Server_discovery.sql)
+14:55:37.094 [pool-1-thread-1] INFO org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory -- Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+14:55:37.102 [pool-1-thread-1] INFO org.flywaydb.core.internal.command.DbValidate -- Successfully validated 4 migrations (execution time 00:00.055s)
+14:55:37.107 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbSchemas -- Skipping creation of existing schema: "PUBLIC"
+14:55:37.116 [pool-1-thread-1] INFO org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory -- Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+14:55:37.121 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.parser.Parser -- Parsing  ...
+14:55:37.136 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 1: CREATE TABLE IF NOT EXISTS "PUBLIC"."flyway_schema_history" (
+    "installed_rank" INT NOT NULL,
+    "version" VARCHAR(50),
+    "description" VARCHAR(200) NOT NULL,
+    "type" VARCHAR(20) NOT NULL,
+    "script" VARCHAR(1000) NOT NULL,
+    "checksum" INT,
+    "installed_by" VARCHAR(100) NOT NULL,
+    "installed_on" TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    "execution_time" INT NOT NULL,
+    "success" BOOLEAN NOT NULL,
+    CONSTRAINT "flyway_schema_history_pk" PRIMARY KEY ("installed_rank")
+) AS SELECT -1, NULL, '<< Flyway Schema History table created >>', 'TABLE', '', NULL, 'SA', CURRENT_TIMESTAMP, 0, TRUE
+14:55:37.137 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 14: CREATE INDEX "PUBLIC"."flyway_schema_history_s_idx" ON "PUBLIC"."flyway_schema_history" ("success")
+14:55:37.140 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: CREATE TABLE IF NOT EXISTS "PUBLIC"."flyway_schema_history" (
+    "installed_rank" INT NOT NULL,
+    "version" VARCHAR(50),
+    "description" VARCHAR(200) NOT NULL,
+    "type" VARCHAR(20) NOT NULL,
+    "script" VARCHAR(1000) NOT NULL,
+    "checksum" INT,
+    "installed_by" VARCHAR(100) NOT NULL,
+    "installed_on" TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    "execution_time" INT NOT NULL,
+    "success" BOOLEAN NOT NULL,
+    CONSTRAINT "flyway_schema_history_pk" PRIMARY KEY ("installed_rank")
+) AS SELECT -1, NULL, '<< Flyway Schema History table created >>', 'TABLE', '', NULL, 'SA', CURRENT_TIMESTAMP, 0, TRUE
+14:55:37.148 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+14:55:37.149 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: CREATE INDEX "PUBLIC"."flyway_schema_history_s_idx" ON "PUBLIC"."flyway_schema_history" ("success")
+14:55:37.157 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+14:55:37.158 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory -- Created Schema History table "PUBLIC"."flyway_schema_history"
+14:55:37.174 [pool-1-thread-1] INFO org.flywaydb.core.internal.command.DbMigrate -- Current version of schema "PUBLIC": << Empty Schema >>
+14:55:37.174 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.parser.Parser -- Parsing V1__Create_tables.sql ...
+14:55:37.178 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 4: -- The relationship between library dependency sources under .metals/readonly/**
+-- and build targets they belong to. Required to know what classpath to use
+-- for compiling dependency sources.
+create table dependency_source(
+  text_document_uri varchar primary key,
+  build_target_uri varchar not null
+)
+14:55:37.179 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 12: -- The relationship between library dependency sources under .metals/readonly/**
+-- and worksheets they belong to. Required to know what classpath to use
+-- for compiling dependency sources.
+create table worksheet_dependency_source(
+  text_document_uri varchar primary key,
+  worksheet_uri varchar not null
+)
+14:55:37.182 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 19: -- The relationship between what library dependency sources under .metals/readonly/**
+-- map to which build targets.
+create table sbt_digest(
+  md5 varchar,
+  status tinyint not null,
+  when_recorded timestamp
+)
+14:55:37.183 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 27: -- Which window/showMessage and window/showMessageRequest dialogues have been dismissed
+-- by the user via "Don't show again" or closed by clicking on "x".
+create table dismissed_notification(
+  id int,
+  when_dismissed timestamp,
+  when_expires timestamp
+)
+14:55:37.184 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 34: -- The choice of build tool when multiple build tool files are found in a workspace
+create table chosen_build_tool(
+  build_tool varchar primary key
+)
+14:55:37.188 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbMigrate -- Starting migration of schema "PUBLIC" to version "1 - Create tables" ...
+14:55:37.190 [pool-1-thread-1] INFO org.flywaydb.core.internal.command.DbMigrate -- Migrating schema "PUBLIC" to version "1 - Create tables"
+14:55:37.192 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: -- The relationship between library dependency sources under .metals/readonly/**
+-- and build targets they belong to. Required to know what classpath to use
+-- for compiling dependency sources.
+create table dependency_source(
+  text_document_uri varchar primary key,
+  build_target_uri varchar not null
+)
+14:55:37.196 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+14:55:37.196 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: -- The relationship between library dependency sources under .metals/readonly/**
+-- and worksheets they belong to. Required to know what classpath to use
+-- for compiling dependency sources.
+create table worksheet_dependency_source(
+  text_document_uri varchar primary key,
+  worksheet_uri varchar not null
+)
+14:55:37.199 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+14:55:37.199 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: -- The relationship between what library dependency sources under .metals/readonly/**
+-- map to which build targets.
+create table sbt_digest(
+  md5 varchar,
+  status tinyint not null,
+  when_recorded timestamp
+)
+14:55:37.201 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+14:55:37.201 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: -- Which window/showMessage and window/showMessageRequest dialogues have been dismissed
+-- by the user via "Don't show again" or closed by clicking on "x".
+create table dismissed_notification(
+  id int,
+  when_dismissed timestamp,
+  when_expires timestamp
+)
+14:55:37.203 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+14:55:37.203 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: -- The choice of build tool when multiple build tool files are found in a workspace
+create table chosen_build_tool(
+  build_tool varchar primary key
+)
+14:55:37.206 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+14:55:37.207 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbMigrate -- Successfully completed migration of schema "PUBLIC" to version "1 - Create tables"
+14:55:37.211 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory -- Schema History table "PUBLIC"."flyway_schema_history" successfully updated to reflect changes
+14:55:37.222 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.parser.Parser -- Parsing V2__Server_discovery.sql ...
+14:55:37.229 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 4: -- For each unique combination of installed build servers we select one server.
+-- The md5 checksum is computed from the names of the installed build servers, and
+-- the selected server is the server which the user chose for this workspace.
+create table chosen_build_server(
+  md5 varchar primary key,
+  selected_server varchar,
+  when_recorded timestamp
+)
+14:55:37.229 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbMigrate -- Starting migration of schema "PUBLIC" to version "2 - Server discovery" ...
+14:55:37.230 [pool-1-thread-1] INFO org.flywaydb.core.internal.command.DbMigrate -- Migrating schema "PUBLIC" to version "2 - Server discovery"
+14:55:37.231 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: -- For each unique combination of installed build servers we select one server.
+-- The md5 checksum is computed from the names of the installed build servers, and
+-- the selected server is the server which the user chose for this workspace.
+create table chosen_build_server(
+  md5 varchar primary key,
+  selected_server varchar,
+  when_recorded timestamp
+)
+14:55:37.233 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+14:55:37.233 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbMigrate -- Successfully completed migration of schema "PUBLIC" to version "2 - Server discovery"
+14:55:37.236 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory -- Schema History table "PUBLIC"."flyway_schema_history" successfully updated to reflect changes
+14:55:37.242 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.parser.Parser -- Parsing V3__Jar_symbols.sql ...
+14:55:37.245 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 2: -- Indexed jars, the MD5 digest of path, modified time and size as key
+create table indexed_jar(
+  id int auto_increment unique,
+  md5 varchar primary key
+)
+14:55:37.248 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 7: -- Top Level Symbols per jar, allow for multiple jars with same symbols and paths
+create table toplevel_symbol(
+  symbol varchar not null,
+  path varchar not null,
+  jar int,
+  foreign key (jar) references indexed_jar (id) on delete cascade,
+  primary key (jar, path, symbol)
+)
+14:55:37.250 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 15: -- Create index to speedup lookup of jar symbols
+create index toplevel_symbol_jar on toplevel_symbol(jar)
+14:55:37.250 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbMigrate -- Starting migration of schema "PUBLIC" to version "3 - Jar symbols" ...
+14:55:37.251 [pool-1-thread-1] INFO org.flywaydb.core.internal.command.DbMigrate -- Migrating schema "PUBLIC" to version "3 - Jar symbols"
+14:55:37.252 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: -- Indexed jars, the MD5 digest of path, modified time and size as key
+create table indexed_jar(
+  id int auto_increment unique,
+  md5 varchar primary key
+)
+14:55:37.262 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+14:55:37.262 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: -- Top Level Symbols per jar, allow for multiple jars with same symbols and paths
+create table toplevel_symbol(
+  symbol varchar not null,
+  path varchar not null,
+  jar int,
+  foreign key (jar) references indexed_jar (id) on delete cascade,
+  primary key (jar, path, symbol)
+)
+14:55:37.273 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+14:55:37.274 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: -- Create index to speedup lookup of jar symbols
+create index toplevel_symbol_jar on toplevel_symbol(jar)
+14:55:37.275 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+14:55:37.275 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbMigrate -- Successfully completed migration of schema "PUBLIC" to version "3 - Jar symbols"
+14:55:37.279 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory -- Schema History table "PUBLIC"."flyway_schema_history" successfully updated to reflect changes
+14:55:37.283 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.parser.Parser -- Parsing V4__Fingerprints.sql ...
+14:55:37.288 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 2: -- Fingerprints saved between invocations
+create table fingerprints(
+  path varchar not null,
+  text varchar not null,
+  md5 varchar not null,
+  id int auto_increment unique
+)
+14:55:37.288 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbMigrate -- Starting migration of schema "PUBLIC" to version "4 - Fingerprints" ...
+14:55:37.290 [pool-1-thread-1] INFO org.flywaydb.core.internal.command.DbMigrate -- Migrating schema "PUBLIC" to version "4 - Fingerprints"
+14:55:37.290 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: -- Fingerprints saved between invocations
+create table fingerprints(
+  path varchar not null,
+  text varchar not null,
+  md5 varchar not null,
+  id int auto_increment unique
+)
+14:55:37.294 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+14:55:37.294 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbMigrate -- Successfully completed migration of schema "PUBLIC" to version "4 - Fingerprints"
+14:55:37.302 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory -- Schema History table "PUBLIC"."flyway_schema_history" successfully updated to reflect changes
+14:55:37.317 [pool-1-thread-1] INFO org.flywaydb.core.internal.command.DbMigrate -- Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (execution time 00:00.053s)
+14:55:37.341 [pool-1-thread-1] DEBUG org.flywaydb.core.FlywayExecutor -- Memory usage: 34 of 100M
+2024.02.28 14:55:39 WARN  Build server is not auto-connectable.
+2024.02.28 14:55:51 INFO  running 'C:\Users\MDNOS\.jabba\jdk\adopt@1.11.0-11\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\MDNOS\AppData\Local\Temp\metals11282999581587504388\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2024.02.28 14:55:57 INFO  no build target found for C:\Users\MDNOS\Desktop\final\iris\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.1
+2024.02.28 14:56:05 INFO  time: code lens generation in 14s
+2024.02.28 14:56:05 INFO  time: code lens generation in 26s
+2024.02.28 14:56:05 WARN  Could not find semantic tokens for: file:///C:/Users/MDNOS/Desktop/final/iris/build.sbt
+2024.02.28 14:56:14 INFO  [info] welcome to sbt 1.9.8 (AdoptOpenJDK Java 11.0.11)
+2024.02.28 14:56:20 INFO  [info] loading settings for project iris-build-build from metals.sbt ...
+2024.02.28 14:56:23 INFO  [info] loading project definition from C:\Users\MDNOS\Desktop\final\iris\project\project
+2024.02.28 14:56:32 INFO  [info] loading settings for project iris-build from metals.sbt ...
+2024.02.28 14:56:32 INFO  [info] loading project definition from C:\Users\MDNOS\Desktop\final\iris\project
+2024.02.28 14:56:46 INFO  [success] Generated .bloop\iris-build.json
+2024.02.28 14:56:46 INFO  [success] Total time: 15 s, completed 28 Feb 2024, 14:56:47
+2024.02.28 14:56:53 INFO  [info] loading settings for project iris from build.sbt ...
+2024.02.28 14:56:53 INFO  [info] set current project to hello-world (in build file:/C:/Users/MDNOS/Desktop/final/iris/)
+2024.02.28 14:57:00 INFO  [success] Generated .bloop\iris.json
+2024.02.28 14:57:00 INFO  [success] Generated .bloop\iris-test.json
+2024.02.28 14:57:00 INFO  [success] Total time: 6 s, completed 28 Feb 2024, 14:57:00
+2024.02.28 14:57:01 INFO  time: ran 'sbt bloopInstall' in 1m9s
+2024.02.28 14:57:01 INFO  Attempting to connect to the build server...
+2024.02.28 14:57:01 INFO  Bloop uses C:\Users\MDNOS\.jabba\jdk\adopt@1.11.0-11 defined at C:\Users\MDNOS\.bloop\bloop.json
+2024.02.28 14:57:01 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\MDNOS\Desktop\final\iris\.metals\bsp.trace.json or C:\Users\MDNOS\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.02.28 14:57:15 INFO  Attempting to connect to the build server...
+2024.02.28 14:57:15 INFO  Bloop uses C:\Users\MDNOS\.jabba\jdk\adopt@1.11.0-11 defined at C:\Users\MDNOS\.bloop\bloop.json
+2024.02.28 14:57:15 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\MDNOS\Desktop\final\iris\project\.metals\bsp.trace.json or C:\Users\MDNOS\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.02.28 14:57:15 INFO  time: Connected to build server in 14s
+2024.02.28 14:57:15 INFO  Connected to Build server: Bloop v1.5.15
+2024.02.28 14:57:15 INFO  time: Imported build in 0.23s
+2024.02.28 14:57:21 INFO  compiling iris (1 scala source)
+2024.02.28 14:57:32 INFO  time: compiled iris in 10s
+2024.02.28 14:57:58 INFO  time: indexed workspace in 42s
+2024.02.28 14:58:08 INFO  Deduplicating compilation of iris from bsp client 'Metals 1.2.2' (since 1m 6.446s)
+2024.02.28 14:58:08 INFO  compiling iris (2 scala sources)
+2024.02.28 14:58:08 INFO  compiling iris (2 scala sources)
+2024.02.28 14:58:24 INFO  time: compiled iris in 16s
+Feb 28, 2024 3:00:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 73
+2024.02.28 15:00:28 INFO  time: code lens generation in 1.14s
+2024.02.28 15:00:28 INFO  time: code lens generation in 2.21s
+2024.02.28 15:00:28 INFO  time: code lens generation in 6.09s
+2024.02.28 15:00:28 INFO  time: code lens generation in 8.32s
+2024.02.28 15:00:28 INFO  running 'C:\Users\MDNOS\.jabba\jdk\adopt@1.11.0-11\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\MDNOS\AppData\Local\Temp\metals14363932762479619414\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2024.02.28 15:00:36 INFO  [info] welcome to sbt 1.9.8 (AdoptOpenJDK Java 11.0.11)
+2024.02.28 15:00:37 INFO  [info] loading settings for project iris-build-build from metals.sbt ...
+2024.02.28 15:00:40 INFO  [info] loading project definition from C:\Users\MDNOS\Desktop\final\iris\project\project
+2024.02.28 15:00:43 INFO  [info] loading settings for project iris-build from metals.sbt ...
+2024.02.28 15:00:43 INFO  [info] loading project definition from C:\Users\MDNOS\Desktop\final\iris\project
+2024.02.28 15:00:52 INFO  [success] Generated .bloop\iris-build.json
+2024.02.28 15:00:52 INFO  [success] Total time: 9 s, completed 28 Feb 2024, 15:00:53
+2024.02.28 15:00:59 INFO  [info] loading settings for project iris from build.sbt ...
+2024.02.28 15:00:59 INFO  [info] set current project to iris (in build file:/C:/Users/MDNOS/Desktop/final/iris/)
+2024.02.28 15:01:00 INFO  compiling iris (2 scala sources)
+2024.02.28 15:01:04 INFO  [success] Generated .bloop\iris.json
+2024.02.28 15:01:04 INFO  [success] Generated .bloop\iris-test.json
+2024.02.28 15:01:04 INFO  [success] Total time: 4 s, completed 28 Feb 2024, 15:01:04
+2024.02.28 15:01:05 INFO  time: ran 'sbt bloopInstall' in 36s
+2024.02.28 15:01:05 INFO  Disconnecting from Bloop session...
+2024.02.28 15:01:06 INFO  Shut down connection with build server.
+2024.02.28 15:01:05 INFO  Shut down connection with build server.
+Feb 28, 2024 3:01:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify
+INFO: Failed to send notification message.
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.nio.channels.ClosedChannelException
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at scala.meta.internal.metals.RequestMonitorImpl$$anon$1.consume(ServerLivenessMonitor.scala:41)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:126)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.sendCancelNotification(RemoteEndpoint.java:180)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint$1.cancel(RemoteEndpoint.java:150)
+	at scala.meta.internal.metals.utils.RequestRegistry.$anonfun$register$5(RequestRegistry.scala:78)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.scala:17)
+	at scala.util.Try$.apply(Try.scala:210)
+	at scala.meta.internal.metals.utils.RequestRegistry.$anonfun$register$4(RequestRegistry.scala:78)
+	at scala.meta.internal.metals.Cancelable$$anon$1.cancel(Cancelable.scala:18)
+	at scala.meta.internal.metals.Cancelable$.$anonfun$cancelAll$1(Cancelable.scala:29)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.Cancelable$.cancelAll(Cancelable.scala:28)
+	at scala.meta.internal.metals.MutableCancelable.cancel(MutableCancelable.scala:25)
+	at scala.meta.internal.metals.utils.RequestRegistry.cancel(RequestRegistry.scala:94)
+	at scala.meta.internal.metals.BuildServerConnection.cancel(BuildServerConnection.scala:396)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:171)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:163)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.nio.channels.ClosedChannelException
+	at java.base/sun.nio.ch.SocketChannelImpl.ensureOpenAndConnected(SocketChannelImpl.java:180)
+	at java.base/sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:452)
+	at java.base/sun.nio.ch.SinkChannelImpl.write(SinkChannelImpl.java:114)
+	at java.base/java.nio.channels.Channels.writeFullyImpl(Channels.java:74)
+	at java.base/java.nio.channels.Channels.writeFully(Channels.java:94)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:172)
+	at java.base/java.io.OutputStream.write(OutputStream.java:122)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:152)
+	at scala.meta.internal.metals.ClosableOutputStream.write(ClosableOutputStream.scala:26)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:137)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:108)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)
+	... 21 more
+
+2024.02.28 15:01:06 INFO  Cancelling compilation on Bloop server
+2024.02.28 15:01:06 INFO  Attempting to connect to the build server...
+2024.02.28 15:01:06 INFO  Bloop uses C:\Users\MDNOS\.jabba\jdk\adopt@1.11.0-11 defined at C:\Users\MDNOS\.bloop\bloop.json
+2024.02.28 15:01:06 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\MDNOS\Desktop\final\iris\.metals\bsp.trace.json or C:\Users\MDNOS\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.02.28 15:01:06 INFO  Attempting to connect to the build server...
+2024.02.28 15:01:06 INFO  Bloop uses C:\Users\MDNOS\.jabba\jdk\adopt@1.11.0-11 defined at C:\Users\MDNOS\.bloop\bloop.json
+2024.02.28 15:01:06 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\MDNOS\Desktop\final\iris\project\.metals\bsp.trace.json or C:\Users\MDNOS\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.02.28 15:01:06 INFO  time: Connected to build server in 0.37s
+2024.02.28 15:01:06 INFO  Connected to Build server: Bloop v1.5.15
+2024.02.28 15:01:11 INFO  time: indexed workspace in 4.82s
+2024.02.28 15:01:21 INFO  time: code lens generation in 9.72s
+2024.02.28 15:01:42 INFO  compiling iris (2 scala sources)
+2024.02.28 15:01:50 INFO  time: compiled iris in 7.43s
+Feb 28, 2024 3:03:08 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\MDNOS\Desktop\final\iris\.metals\.reports\metals-full\2024-02-28\r_compiler-error_(iris-build)_15-03-08-817.md
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.7.15/scalafmt-core_2.13-3.7.15.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.7.15/scalafmt-core_2.13-3.7.15.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.13/3.7.15/scalafmt-sysops_2.13-3.7.15.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-config_2.13/3.7.15/scalafmt-config_2.13-3.7.15.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalameta_2.13/4.8.12/scalameta_2.13-4.8.12.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-config_2.13/3.7.15/scalafmt-config_2.13-3.7.15.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.13/3.7.15/scalafmt-sysops_2.13-3.7.15.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalameta_2.13/4.8.12/scalameta_2.13-4.8.12.pom
+Downloading https://repo1.maven.org/maven2/com/geirsson/metaconfig-typesafe-config_2.13/0.12.0/metaconfig-typesafe-config_2.13-0.12.0.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/parsers_2.13/4.8.12/parsers_2.13-4.8.12.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/parsers_2.13/4.8.12/parsers_2.13-4.8.12.pom
+Downloaded https://repo1.maven.org/maven2/com/geirsson/metaconfig-typesafe-config_2.13/0.12.0/metaconfig-typesafe-config_2.13-0.12.0.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.8.12/trees_2.13-4.8.12.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.8.12/trees_2.13-4.8.12.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/common_2.13/4.8.12/common_2.13-4.8.12.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/common_2.13/4.8.12/common_2.13-4.8.12.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/common_2.13/4.8.12/common_2.13-4.8.12.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.8.12/trees_2.13-4.8.12.jar
+Downloading https://repo1.maven.org/maven2/com/geirsson/metaconfig-typesafe-config_2.13/0.12.0/metaconfig-typesafe-config_2.13-0.12.0.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalameta_2.13/4.8.12/scalameta_2.13-4.8.12.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/parsers_2.13/4.8.12/parsers_2.13-4.8.12.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.7.15/scalafmt-core_2.13-3.7.15.jar
+Downloaded https://repo1.maven.org/maven2/com/geirsson/metaconfig-typesafe-config_2.13/0.12.0/metaconfig-typesafe-config_2.13-0.12.0.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-config_2.13/3.7.15/scalafmt-config_2.13-3.7.15.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-config_2.13/3.7.15/scalafmt-config_2.13-3.7.15.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.13/3.7.15/scalafmt-sysops_2.13-3.7.15.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.13/3.7.15/scalafmt-sysops_2.13-3.7.15.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalameta_2.13/4.8.12/scalameta_2.13-4.8.12.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/parsers_2.13/4.8.12/parsers_2.13-4.8.12.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/common_2.13/4.8.12/common_2.13-4.8.12.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.7.15/scalafmt-core_2.13-3.7.15.jar
+Still downloading:
+https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.8.12/trees_2.13-4.8.12.jar (86.29 %, 5816320 / 6740134)
+
+Downloaded https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.8.12/trees_2.13-4.8.12.jar
+Feb 28, 2024 3:05:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 242
+Feb 28, 2024 3:05:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 250
+Feb 28, 2024 3:05:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 256
+2024.02.28 15:06:31 INFO  Deduplicating compilation of iris from bsp client 'Metals 1.2.2' (since 5m 25.434s)
+2024.02.28 15:06:38 INFO  running 'C:\Users\MDNOS\.jabba\jdk\adopt@1.11.0-11\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\MDNOS\AppData\Local\Temp\metals7990673338943177575\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2024.02.28 15:06:46 INFO  [info] welcome to sbt 1.9.8 (AdoptOpenJDK Java 11.0.11)
+2024.02.28 15:06:47 INFO  [info] loading settings for project iris-build-build from metals.sbt ...
+2024.02.28 15:06:49 INFO  [info] loading project definition from C:\Users\MDNOS\Desktop\final\iris\project\project
+2024.02.28 15:06:52 INFO  [info] loading settings for project iris-build from metals.sbt ...
+2024.02.28 15:06:52 INFO  [info] loading project definition from C:\Users\MDNOS\Desktop\final\iris\project
+2024.02.28 15:07:01 INFO  [success] Generated .bloop\iris-build.json
+2024.02.28 15:07:01 INFO  [success] Total time: 8 s, completed 28 Feb 2024, 15:07:01
+2024.02.28 15:07:07 ERROR C:\Users\MDNOS\Desktop\final\iris\build.sbt:30: warning: method in in trait ScopingSetting is deprecated (since 1.5.0): `in` is deprecated; migrate to slash syntax - https://www.scala-sbt.org/1.x/docs/Migrating-from-sbt-013x.html#slash
+2024.02.28 15:07:07 ERROR mainClass in (Compile, packageBin) := Some("ch.epfl.scala.IrisUI")
+2024.02.28 15:07:07 ERROR           ^
+2024.02.28 15:07:08 INFO  [info] loading settings for project iris from build.sbt ...
+2024.02.28 15:07:08 INFO  [info] set current project to iris (in build file:/C:/Users/MDNOS/Desktop/final/iris/)
+2024.02.28 15:07:10 INFO  [success] Generated .bloop\iris.json
+2024.02.28 15:07:10 INFO  [success] Generated .bloop\iris-test.json
+2024.02.28 15:07:10 INFO  [success] Total time: 1 s, completed 28 Feb 2024, 15:07:10
+2024.02.28 15:07:10 INFO  time: ran 'sbt bloopInstall' in 31s
+2024.02.28 15:07:10 INFO  Disconnecting from Bloop session...
+2024.02.28 15:07:10 INFO  Shut down connection with build server.
+2024.02.28 15:07:10 INFO  Shut down connection with build server.
+2024.02.28 15:07:10 INFO  Attempting to connect to the build server...
+2024.02.28 15:07:10 INFO  Bloop uses C:\Users\MDNOS\.jabba\jdk\adopt@1.11.0-11 defined at C:\Users\MDNOS\.bloop\bloop.json
+2024.02.28 15:07:10 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\MDNOS\Desktop\final\iris\.metals\bsp.trace.json or C:\Users\MDNOS\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.02.28 15:07:10 INFO  Attempting to connect to the build server...
+2024.02.28 15:07:10 INFO  Bloop uses C:\Users\MDNOS\.jabba\jdk\adopt@1.11.0-11 defined at C:\Users\MDNOS\.bloop\bloop.json
+2024.02.28 15:07:10 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\MDNOS\Desktop\final\iris\project\.metals\bsp.trace.json or C:\Users\MDNOS\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.02.28 15:07:10 INFO  time: Connected to build server in 0.2s
+2024.02.28 15:07:10 INFO  Connected to Build server: Bloop v1.5.15
+2024.02.28 15:07:15 INFO  time: indexed workspace in 4.55s
+Feb 28, 2024 3:07:28 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2024.02.28 15:07:29 INFO  time: code lens generation in 13s
+Feb 28, 2024 3:08:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 285
+2024.02.28 15:08:58 INFO  compiling iris (2 scala sources)
+2024.02.28 15:09:03 INFO  time: compiled iris in 5.04s
+Feb 28, 2024 3:14:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 315
+2024.02.28 15:21:04 INFO  Shutting down server
+2024.02.28 15:21:04 INFO  shutting down Metals
+2024.02.28 15:21:04 INFO  Shut down connection with build server.
+2024.02.28 15:21:04 INFO  Shut down connection with build server.
+2024.02.28 15:21:04 INFO  Exiting server
